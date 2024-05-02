@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Entradas</title>
+		<link rel="stylesheet" href="./stylesheet.css" />
+	</head>
+	<body>
+		<div class="navbar">
+			<div class="navbar-left"><h1>Lollapalooza!</h1></div>
+			<div class="navbar-right">
+				<a href="./presentacion.html">Presentacion</a>
+				<a href="./entradas.html">Entradas</a>
+			</div>
+		</div>
+		<div class="main">
+			<div class="tabla-precios">
+				<table>
+					<tr>
+						<th>PRECIOS</th>
+						<th>1 DIA</th>
+						<th>3 DIAS</th>
+					</tr>
+					<tr>
+						<th>ENTRADA BASICA</th>
+						<th>$20000</th>
+						<th>$50000</th>
+					</tr>
+					<tr>
+						<th>ENTRADA PREMIUM</th>
+						<th>$30000</th>
+						<th>$75000</th>
+					</tr>
+				</table>
+				<h3>BACKSTAGE DE 3 BANDAS A ELECCION: $75000</h3>
+			</div>
+		</div>
+		<form id="calculo-entradas">
+			<fieldset>
+				<label for="cantidad-entradas"
+					>¿Cuantas entradas desea adquirir?
+					<select id="cantidad-entradas">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+					</select>
+				</label>
+				<label for="tipo-entradas"
+					>Tipo de Entradas
+					<select id="tipo-entradas">
+						<option value="20000">Basica - 1 dia</option>
+						<option value="50000">Basica - 3 dias</option>
+						<option value="30000">Premium - 1 dia</option>
+						<option value="75000">Premium - 3 dias</option>
+					</select>
+				</label>
+			</fieldset>
+
+			<fieldset>
+				<p>
+					¿Te gustaria conocer a 3 artistas preferidos? <br /><b
+						>¡ESTA ES TU OPORTUNIDAD!</b
+					>
+					<label for="meetup-opt"
+						><input type="checkbox" id="meetup-opt" class="inline" value="1" /> Quiero
+						conocer a mis artistas favoritos!</label
+					>
+				</p>
+			</fieldset>
+			<input
+				type="button"
+				id="calcular-entradas"
+				value="Calcular Precio Final"
+				onclick="calcularEntradas()"
+			/>
+			<h3 id="precio-final">0</h3>
+		</form>
+	</body>
+	<script src="./script.js"></script>
+</html>

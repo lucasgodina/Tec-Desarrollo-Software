@@ -7,33 +7,26 @@
 		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body>
-		<h1 id="title">Simulador<br />Pedido de un vestido</h1>
+		<h1 id="title">Simulador de pedidos</h1>
 		<form id="formulario">
 			<fieldset>
-				<label for="tela"
-					>Tipo de tela
-					<select id="tela">
-						<option value="" disabled selected hidden>
-							Selecciona un tipo de tela
-						</option>
-						<option value="seda">Seda</option>
-						<option value="lycra">Lycra</option>
-					</select></label
-				>
-				<label for="talle"
-					>Talle<select id="talle">
-						<option value="" disabled selected hidden>Selecciona un talle</option>
-						<option value="s">S</option>
-						<option value="m">M</option>
-						<option value="l">L</option>
-						<option value="xl">XL</option>
-						<option value="xxl">XXL</option>
+				<label for="descripcion"
+					>Descripcion del mueble<input type="text" id="descripcion"
+				/></label>
+				<label for="material"
+					>Tipo de material<select id="material">
+						<option value="" disabled selected hidden>Selecciona una opcion</option>
+						<option value="roble">Roble</option>
+						<option value="algarrobo">Algarrobo</option>
+						<option value="cedro">Cedro</option>
 					</select></label
 				>
 				<label for="envio"
 					><input type="checkbox" id="envio" class="inline" value="1" />Solicita
 					envio a domicilio</label
 				>
+				<label for="cantidad">Cantidad<input type="text" id="cantidad" /></label>
+			</fieldset>
 			<input
 				type="button"
 				name="calcular"
