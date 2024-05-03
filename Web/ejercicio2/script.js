@@ -1,6 +1,6 @@
 function calcular() {
-	/*let talle = document.getElementById("talle").value;
-  let tela = document.getElementById("tipo-tela").value;
+  let talle = document.getElementById("talle").value;
+  let tela = document.getElementById("tela").value;
   let total = 0;
 
   switch (talle) {
@@ -27,7 +27,23 @@ function calcular() {
   } else if (tela == "lycra") {
     total += total * 0.2;
   }
-  alert(total);
-  */
-	alert("HOLA");
+  return total;
 }
+
+function calcularUnidad() {
+  document.getElementById("precio-final").innerHTML = calcular();
+}
+
+function calcularMayorista() {
+  document.getElementById("precio-final").innerHTML = calcular() * 0.9;
+}
+
+/*function encaje() {
+  let imagen = document.getElementById("imagen-vestido");
+  if (document.getElementById("encaje").checked) {
+    imagen.src = "./vestido-con-encaje.jpg";
+  } else {
+    imagen.src = "./vestido-sin-encaje.jpg";
+  }
+}
+*/
