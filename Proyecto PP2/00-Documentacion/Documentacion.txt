@@ -1,0 +1,31 @@
+Proyecto Aplicación "Recomendar lugares para visitar en Ituzaingó" - ItuzApp
+
+Objetivo:
+Esta aplicación será una herramienta tanto para los vecinos de Ituzaingó, como para aquellos que deseen visitar Ituzaingó y no sepan que lugares visitar.
+En su primera versión los usuarios podrán ver recomendaciones y/o recomendar "Lugares para comer".
+
+Escalabilidad:
+Creemos que la aplicación tiene potencial para ser ampliada según las necesidades y/o ideas que vayan surgiendo de los usuarios.
+Por lo tanto utilizaremos el método de desarrollo iterativo / incremental para añadirle funcionalidades a futuro.
+
+En esta primera etapa la aplicación pasará por 3 versiones iniciales.
+
+    1 - La aplicación presentará un login/registro para personas que quieran recomendar lugares.
+    Habrá una opción para no registrarse y poder ver los lugares recomendados.
+    La aplicación tendrá un estilo de Galeria a la hora de mostrar los lugares recomendados.
+    Se podrán filtrar los lugares según el tipo de comida (pizzería, heladería, pancheria, etc.).
+    Se podrán filtrar los lugares que ofrezcan en su menu opciones para personas celíacas y/o veganas.
+
+    2 - Se añadirá un mapa interactivo de Ituzaingó a la aplicación para mostrar los lugares recomendados.
+
+    3 - Al mapa interactivo se le añadirá geolocalización para mostrar la posición actual de la persona que esté utilizando la aplicación.
+
+Luego de esta etapa inicial se evaluará la aceptación de los usuarios y se decidirá la posible expansión de la aplicación.
+
+Opciones para una futura posible expansión de la aplicación:
+- Extender el alcance de la aplicación a localidades cercanas a Ituzaingó.
+- Utilizar GPS para indicar como llegar a un lugar recomendado.
+- Agregar distintos lugares para visitar, por ejemplo: plazas, lugares históricos, comercios, etc.
+- Monetización de la aplicación, publicidad, servicio premium.
+- Agregar sistema de calificación y reseñas.
+- Escuchar y evaluar necesidades y / o ideas de usuarios.
