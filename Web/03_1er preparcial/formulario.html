@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Formulario</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header>
+			<nav class="nav">
+				<a href="/" class="logo">Logo</a>
+				<div class="hamburger">
+					<span class="line"></span>
+					<span class="line"></span>
+					<span class="line"></span>
+				</div>
+				<div class="nav__link hide">
+					<a href="./index.html">Presentacion</a>
+					<a href="./formulario.html">Formulario</a>
+				</div>
+			</nav>
+		</header>
+		<div id="container">
+			<div id="form-div">
+				<form id="formulario">
+					<fieldset>
+						<label for="cantidad-invitados"
+							>Cantidad de invitados<input
+								type="number"
+								id="cantidad-invitados"
+								min="100"
+								max="500"
+								placeholder="100"
+						/></label>
+
+						<label for="tipo-salon"
+							>Salon
+							<select name="tipo-salon" id="tipo-salon">
+								<option value="" selected disabled hidden>
+									Elija el tamaño del salon
+								</option>
+								<option value="chico">Salon chico</option>
+								<option value="mediano">Salon mediano</option>
+								<option value="grande">Salon grande</option>
+							</select>
+						</label>
+
+						<label for="evento-adicional" style="display: none"
+							>¿Desea un evento adicional?
+							<input
+								type="checkbox"
+								name="evento-adicional"
+								id="evento-adicional"
+								class="inline"
+							/>
+						</label>
+						<label for="nombre-reserva"
+							>Nombre de la reserva<input
+								type="text"
+								name="nombre-reserva"
+								id="nombre-reserva"
+								placeholder="Ingrese el nombre de quien reserva"
+						/></label>
+					</fieldset>
+					<input type="button" value="Calcular" />
+					<h2 id="precio-final">0</h2>
+				</form>
+			</div>
+			<div id="img-div">
+				<img src="./party.png" />
+			</div>
+		</div>
+	</body>
+	<script src="script.js"></script>
+</html>
