@@ -9,7 +9,7 @@
 	<body>
 		<header>
 			<nav class="nav">
-				<a href="/" class="logo">Logo</a>
+				<a href="/" class="logo">PartyFest</a>
 				<div class="hamburger">
 					<span class="line"></span>
 					<span class="line"></span>
@@ -31,12 +31,17 @@
 								id="cantidad-invitados"
 								min="100"
 								max="500"
-								placeholder="100"
+								placeholder="Ingrese un numero entre 100 y 500"
+								onfocus="validarInvitados()"
 						/></label>
 
 						<label for="tipo-salon"
 							>Salon
-							<select name="tipo-salon" id="tipo-salon">
+							<select
+								name="tipo-salon"
+								id="tipo-salon"
+								onchange="cambiarImagen()"
+							>
 								<option value="" selected disabled hidden>
 									Elija el tamaño del salon
 								</option>
@@ -45,16 +50,17 @@
 								<option value="grande">Salon grande</option>
 							</select>
 						</label>
-
-						<label for="evento-adicional" style="display: none"
-							>¿Desea un evento adicional?
-							<input
-								type="checkbox"
-								name="evento-adicional"
-								id="evento-adicional"
-								class="inline"
-							/>
-						</label>
+						<div id="evento" style="display: none">
+							<label for="evento-adicional"
+								>¿Desea un evento adicional?
+								<input
+									type="checkbox"
+									name="evento-adicional"
+									id="evento-adicional"
+									class="inline"
+								/>
+							</label>
+						</div>
 						<label for="nombre-reserva"
 							>Nombre de la reserva<input
 								type="text"
@@ -63,12 +69,16 @@
 								placeholder="Ingrese el nombre de quien reserva"
 						/></label>
 					</fieldset>
-					<input type="button" value="Calcular" />
-					<h2 id="precio-final">0</h2>
+					<input type="button" value="Registrar" onclick="registrar()" />
+					<div id="registro">
+						<h4 id="registro-nombre"></h2>
+						<h4 id="registro-invitados"></h2>
+						<h4 id="registro-valor-total"></h2>
+					</div>
 				</form>
 			</div>
 			<div id="img-div">
-				<img src="./party.png" />
+				<img src="./party.png" id="imagen" />
 			</div>
 		</div>
 	</body>
