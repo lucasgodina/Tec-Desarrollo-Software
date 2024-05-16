@@ -38,12 +38,12 @@ function calcularMayorista() {
   document.getElementById("precio-final").innerHTML = calcular() * 0.9;
 }
 
-/*function encaje() {
+function cambiarImagen() {
   let imagen = document.getElementById("imagen-vestido");
-  if (document.getElementById("encaje").checked) {
+  let checkbox = document.getElementById("encaje");
+  if (checkbox.checked) {
     imagen.src = "./vestido-con-encaje.jpg";
   } else {
     imagen.src = "./vestido-sin-encaje.jpg";
   }
 }
-*/
