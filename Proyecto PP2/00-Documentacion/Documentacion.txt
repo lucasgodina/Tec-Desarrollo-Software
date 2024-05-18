@@ -16,9 +16,10 @@ En esta primera etapa la aplicación pasará por 3 versiones iniciales.
     Se podrán filtrar los lugares según el tipo de comida (pizzería, heladería, pancheria, etc.).
     Se podrán filtrar los lugares que ofrezcan en su menu opciones para personas celíacas y/o veganas.
 
-    2 - Se añadirá un mapa interactivo de Ituzaingó a la aplicación para mostrar los lugares recomendados.
+    2 - Se añadira un sistema de reseñas. El cliente puede subir fotos propias del lugar y dejar un comentario acerca del lugar.
 
-    3 - Al mapa interactivo se le añadirá geolocalización para mostrar la posición actual de la persona que esté utilizando la aplicación.
+    3 - Se añadirá un mapa interactivo de Ituzaingó a la aplicación para mostrar los lugares recomendados.
+    Al mapa interactivo se le añadirá geolocalización para mostrar la posición actual de la persona que esté utilizando la aplicación.
 
 Luego de esta etapa inicial se evaluará la aceptación de los usuarios y se decidirá la posible expansión de la aplicación.
 
