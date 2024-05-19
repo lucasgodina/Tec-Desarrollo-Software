@@ -4,5 +4,4 @@ def soloNumeros():
         a = input("Ingrese un numero valido: ")
     print(a + " es un numero")
 
-
 soloNumeros()
