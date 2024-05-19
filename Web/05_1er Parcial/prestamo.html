@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Prestamo</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header>
+			<nav class="nav">
+				<a href="/" class="logo">Presta</a>
+				<div class="hamburger">
+					<span class="line"></span>
+					<span class="line"></span>
+					<span class="line"></span>
+				</div>
+				<div class="nav__link hide">
+					<a href="./inicio.html">Inicio</a>
+					<a href="./prestamo.html">Prestamo</a>
+				</div>
+			</nav>
+		</header>
+		<h2>Simulador de un prestamo hipotecario</h2>
+		<h3>Casa Soñada</h3>
+		<div id="container">
+			<div>
+				<form id="formulario">
+					<label for="tipo-casa">Tipo de casa</label>
+					<select name="tipo-casa" id="tipo-casa">
+						<option value="" selected disabled hidden ">
+							Seleccione el tipo de casa
+						</option>
+						<option value="departamento">Departamento</option>
+						<option value="casa">Casa</option>
+					</select>
+					<div id="country" class="hide">
+						<label for="check-country">Es en un country?</label>
+						<input
+							type="checkbox"
+							name="check-country"
+							id="check-country"
+							class="inline"
+						/>
+					</div>
+					<label for="monto">Monto solicitado</label>
+					<input type="text" name="monto" id="monto" onfocus="esCountry()" />
+					<label for="cantidad-habitantes">Cantidad de habitantes</label>
+					<select id="cantidad-habitantes" onchange="cambiarImagen()">
+						<option value="" selected disabled hidden>
+							Seleccione una cantidad de habitantes
+						</option>
+						<option value="1">1 habitante</option>
+						<option value="2">2 habitantes</option>
+						<option value="3">3 habitantes</option>
+						<option value="4">4 habitantes o mas</option>
+					</select>
+					<label for="cantidad-cuotas">Cantidad de cuotas</label>
+					<select id="cantidad-cuotas">
+						<option value="" selected disabled hidden>
+							Seleccione la cantidad de cuotas
+						</option>
+						<option value="36">36 cuotas</option>
+						<option value="48">48 cuotas</option>
+						<option value="84">84 cuotas</option>
+						<option value="96">96 cuotas</option>
+					</select>
+				</form>
+				<input type="button" id="boton" value="Calcular valor de cuota" onclick="calcularCuota()"/>
+				<h2 id="valor-cuota">0</h2>
+				<div id="adicionales">
+					<h3 id="adicional">Adicional: 0</h3>
+					<h3 id="descuento">Descuento: 0</h3>
+				</div>
+			</div>
+			<div>
+				<img src="./casa.jpg" id="imagen" />
+				
+			</div>
+		</div>
+	</body>
+	<script src="script.js"></script>
+</html>
