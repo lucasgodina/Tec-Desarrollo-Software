@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>10</y>
+      <w>220</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>paquete::Celular
+--
+-marca: String
+-encendido: boolean
+--
++Celular(String marca): ctor
++getMarca(): String
++isEncendido(): boolean
++prender(): void
++apagar(): void
++llamar(String numero): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>240</x>
+      <y>10</y>
+      <w>200</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>paquete::Main
+--
+--
++main(String[] args): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
