@@ -41,7 +41,6 @@ function esCountry() {
 	const monto = document.getElementById('monto').value;
 	const tipo_casa = document.getElementById('tipo-casa');
 	const country = document.getElementById('country');
-	const country_check = document.getElementById('check-country');
 
 	if (monto > 10000000 && tipo_casa.value == 'casa') {
 		country.style.display = 'block';
