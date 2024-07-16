@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Formulario</title>
+	</head>
+	<body>
+		<form action="ejercicio.php" method="post">
+			<fieldset>
+				<legend>Empleados</legend>
+				<label for="nombre">Nombre empleado</label>
+				<input type="text" name="nombre" />
+				<br />
+				<label for="edad">Edad</label>
+				<input type="text" name="edad" />
+				<br />
+				<label for="genero">Genero</label>
+				<input type="radio" name="genero" value="F" />
+				<input type="radio" name="genero" value="M" />
+				<br />
+				<label for="cargo">Cargo</label>
+				<select name="cargo">
+					<option value="cadete">Cadete</option>
+					<option value="operario">Operario</option>
+					<option value="gerente">Gerente</option>
+					<option value="jefe">Jefe</option>
+				</select>
+				<br />
+				<label for="exclusivo">Tiene acceso exclusivo?</label>
+				<input type="checkbox" name="exclusivo" />
+			</fieldset>
+		</form>
+	</body>
+</html>
