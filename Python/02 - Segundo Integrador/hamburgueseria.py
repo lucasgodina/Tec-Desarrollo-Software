@@ -1,5 +1,9 @@
+import tkinter as tk
+
+
 def menu():
-    while True:
+    correr = True
+    while correr:
         print("Bienvenido a la Hamburguesas IT")
         encargado = input("Ingrese el nombre del encargad@: ")
 
@@ -20,15 +24,26 @@ def menu():
             cant_combo_t = int(input("Ingrese la cantidad de combos triples: "))
             cant_flurby = int(input("Ingrese la cantidad de Flurbys: "))
 
+            realizar_pedido()
         elif choice == "2":
-            print("Haciendo un pedido...")
+            print("Cambiar encargado")
             # Aquí puedes agregar el código para hacer un pedido
+            cambiar_encargado()
         elif choice == "3":
             print("Saliendo...")
-            # Aquí puedes agregar el código para salir del programa
+            correr = False
         else:
             print("Opción no válida. Por favor, intente de nuevo.")
 
 
-# Llamar a la función menu
-menu()
+def realizar_pedido():
+    return
+
+
+def cambiar_encargado():
+    return
+
+
+if __name__ == "__main__":
+    # Llamar a la función menu
+    menu()
