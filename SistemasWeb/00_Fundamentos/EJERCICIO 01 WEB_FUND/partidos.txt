@@ -1,0 +1,11 @@
+Partidos
+
+Los 32 equipos que participan en la fase final se dividen en 8 grupos de 4 equipos cada uno. Dentro del grupo cada equipo juega tres partidos, uno contra cada uno de los demás miembros del grupo. Según el resultado de cada partido, se otorgan tres puntos al ganador y ninguno al perdedor, y en caso de empate, se otorga un punto a cada equipo.Pasan a la siguiente ronda los dos equipos de cada grupo mejor clasificados. El orden de clasificación se determina teniendo en cuenta los siguientes criterios, en orden de preferencia: El mayor número de puntos obtenidos teniendo en cuenta todos los partidos del grupo o la mayor diferencia de goles sumados teniendo en cuenta todos los partidos del grupo o el mayor número de goles a favor anotados teniendo en cuenta todos los partidos del grupo
+
+14/06/2018	RUSIA	18:00	ARABIA SAUDITA
+15/06/2018	EGIPTO	17:00	URUGUAY
+15/06/2018	Marruecos	18:00	Irán
+15/06/2018	Portugal	21:00	España
+
+
+

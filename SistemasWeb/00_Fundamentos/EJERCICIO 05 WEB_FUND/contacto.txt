@@ -1,0 +1,25 @@
+Nombre  
+
+Contraseña  
+
+Sexo
+
+ Hombre
+ Mujer
+
+Hobbies
+
+ Bailar
+ Cantar
+ Nadar
+ Correr
+
+Titulo 
+Primario
+Secundario
+Terciario
+Universitario 
+
+Comentarios  
+
+ 
