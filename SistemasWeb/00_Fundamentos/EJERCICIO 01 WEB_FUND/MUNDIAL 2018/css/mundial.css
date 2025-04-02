@@ -1,0 +1,125 @@
+body {
+	font-family: Arial;
+}
+
+.contenedor {
+	width: 900px;
+	margin: 0 auto;
+}
+
+header {
+	height: 70px;
+}
+
+header span {
+	position: relative;
+	border-bottom: 30px;
+	color: red;
+	font-size: 20px;
+}
+
+nav {
+	background-color: gray;
+	height: 50px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	float: left;
+	padding: 0 20px;
+}
+
+nav ul li a {
+	color: white;
+	font-size: 13px;
+	line-height: 50px;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: black;
+}
+
+footer {
+	background-color: black;
+	text-align: center;
+	font-size: 12px;
+	padding: 5px;
+	clear: both;
+}
+
+footer p {
+	color: white;
+}
+
+h1 {
+	color: red;
+	font-size: 25px;
+}
+
+h2 {
+	font-size: 15px;
+}
+
+p {
+	color: gray;
+}
+
+.pais {
+	width: 70%;
+	float: left;
+}
+
+aside {
+	width: 20%;
+	background-color: #f2f5a9;
+	float: right;
+	padding: 5%;
+}
+
+aside li {
+	color: red;
+	font-size: 13px;
+}
+
+article {
+	background-color: #d0f5a9;
+	width: 25%;
+	float: left;
+	margin-right: 3%;
+	padding: 2%;
+}
+
+article .ver {
+	color: #04b431;
+	text-align: center;
+	background-color: white;
+	padding: 5%;
+}
+
+.partidos {
+	overflow: hidden;
+}
+
+.partidos figure {
+	float: left;
+	width: 40%;
+	margin: 0;
+}
+
+.partidos figure figcaption {
+	font-style: italic;
+	text-align: right;
+	font-size: 12px;
+}
+
+.partidos p {
+	float: right;
+	width: 58%;
+	margin-top: 0;
+}
