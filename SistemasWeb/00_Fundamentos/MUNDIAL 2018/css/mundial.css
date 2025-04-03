@@ -123,3 +123,45 @@ article .ver {
 	width: 58%;
 	margin-top: 0;
 }
+
+table {
+	clear: both;
+	margin: 0px 30px;
+	width: 100%;
+	line-height: 20px;
+}
+
+table .gris {
+	background-color: gray;
+}
+
+table .numeros {
+	font-size: 20px;
+	text-align: center;
+	color: red;
+}
+
+.grupo {
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+
+.grupo h3 {
+	clear: both;
+	font-size: 30px;
+}
+
+.grupo img {
+	width: 30%;
+	float: left;
+}
+
+.grupo ul {
+	width: 60%;
+	float: right;
+}
+
+.grupo ul li {
+	font-size: 30px;
+	margin-bottom: 10px;
+}
