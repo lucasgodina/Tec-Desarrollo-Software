@@ -25,9 +25,123 @@
 					<li><a href="contacto.html">Contacto</a></li>
 				</ul>
 			</nav>
-			<section></section>
+			<section>
+				<h1>Complete el siguiente formulario</h1>
+				<form action="procesador.php" method="post" class="formulario"></form>
+				<div>
+					<label for="nombre">Nombre</label>
+					<input type="text" id="nombre" name="nombre" required />
+				</div>
+				<div>
+					<label for="pass">Contraseña</label>
+					<input type="password" id="pass" name="pass" required />
+				</div>
+				<div>
+					<label for="sexo">Sexo</label>
+					<ul>
+						<li>
+							<input
+								type="radio"
+								id="masculino"
+								name="sexo"
+								value="masculino"
+								required
+							/>
+							<label for="masculino">Masculino</label>
+						</li>
+						<li>
+							<input
+								type="radio"
+								id="femenino"
+								name="sexo"
+								value="femenino"
+								required
+							/>
+							<label for="femenino">Femenino</label>
+						</li>
+						<li>
+							<input
+								type="radio"
+								id="otro"
+								name="sexo"
+								value="otro"
+								required
+							/>
+							<label for="otro">Otro</label>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<label>Hobbies</label>
+					<ul>
+						<li>
+							<label for="bailar"
+								><input
+									type="checkbox"
+									id="bailar"
+									name="hobbies"
+									value="bailar"
+								/>
+								Bailar</label
+							>
+						</li>
+						<li>
+							<label for="cantar"
+								><input
+									type="checkbox"
+									id="cantar"
+									name="hobbies"
+									value="cantar"
+								/>
+								Cantar</label
+							>
+						</li>
+						<li>
+							<label for="nadar">
+								<input
+									type="checkbox"
+									id="nadar"
+									name="hobbies"
+									value="nadar"
+								/>
+								Nadar</label
+							</label>
+						</li>
+						<li>
+							<label for="correr">
+								<input
+									type="checkbox"
+									id="correr"
+									name="hobbies"
+									value="correr"
+								/>
+								Correr</label
+							</label>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<label for="titulo">
+						Titulo
+					</label>
+					<select name="titulo" id="titulo">
+						<option value="primario">Primario</option>
+						<option value="secundario">Secundario</option>
+						<option value="terciario">Terciario</option>
+						<option value="universitario">Universitario</option>
+					</select>
+				</div>
+				<div>
+					<label for="comentarios">Comentarios</label>
+					<textarea name="comentarios"></textarea>
+				</div>
+				<div>
+					<input type="submit" value="Enviar" />
+					<input type="reset" value="Borrar" />
+				</div>
+			</section>
 			<footer>
-				<p>Hecho por Lucas Godina y Morais Yamila</p>
+				<p>Hecho por Lucas Godina y Yamila Morais</p>
 			</footer>
 		</section>
 	</body>

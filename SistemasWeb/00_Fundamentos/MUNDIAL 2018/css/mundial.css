@@ -13,7 +13,7 @@ header {
 
 header span {
 	position: relative;
-	border-bottom: 30px;
+	bottom: 30px;
 	color: red;
 	font-size: 20px;
 }
@@ -164,4 +164,62 @@ table .numeros {
 .grupo ul li {
 	font-size: 30px;
 	margin-bottom: 10px;
+}
+
+.estadio {
+	width: 28%;
+	float: left;
+}
+
+.estadio.medio {
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+.equipos {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.equipos .negro {
+	background-color: black;
+	color: white;
+	padding: 5px;
+}
+
+.equipos .gris {
+	background-color: grey;
+	font-weight: bold;
+}
+
+.formulario div {
+	margin-bottom: 20px;
+	color: gray;
+}
+
+.formulario ul {
+	list-style: none;
+}
+
+textarea {
+	resize: none;
+	height: 80px;
+	color: red;
+}
+
+input {
+	color: red;
+}
+
+label {
+	vertical-align: top;
+}
+
+video {
+	width: 900px;
+}
+
+.equipos img {
+	width: auto;
+	height: auto;
 }
