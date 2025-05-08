@@ -38,8 +38,22 @@ def mostrar_ventas():
 
 
 # Ejemplo de uso
-agregar_venta("Laptop", 1200.50)
-agregar_venta("Teléfono", 800.75)
-agregar_venta("Tablet", 300.00)
+if __name__ == "__main__":
+    while True:
+        print("Seleccione una opción:")
+        print("1. Agregar venta")
+        print("2. Mostrar ventas")
+        print("0. Salir del programa")
+        opcion = input("Ingrese el número de la opción deseada: ")
 
-mostrar_ventas()
+        if opcion == "1":
+            producto = input("Ingrese el nombre del producto vendido: ")
+            precio = float(input("Ingrese el precio del producto vendido: "))
+            agregar_venta(producto, precio)
+        elif opcion == "2":
+            mostrar_ventas()
+        elif opcion == "0":
+            print("Saliendo del programa...")
+            break
+        else:
+            print("Opción no válida. Por favor, seleccione 1, 2 o 0.")

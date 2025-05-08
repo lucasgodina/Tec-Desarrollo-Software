@@ -1,0 +1,40 @@
+Instructivo de Instalación de Entorno Python con Conda
+
+Este instructivo explica cómo crear y usar un entorno de desarrollo en Python utilizando Conda.
+
+Requisitos previos:
+
+    Tener instalado Anaconda o Miniconda.
+    Descargas:
+
+        Anaconda: https://www.anaconda.com/products/distribution
+
+        Miniconda: https://docs.conda.io/en/latest/miniconda.html
+
+Pasos:
+
+    Abrir una terminal (Anaconda Prompt en Windows o Terminal en Linux/macOS).
+
+    Crear un nuevo entorno con la versión deseada de Python.
+    Ejemplo para crear un entorno llamado "mi_entorno" con Python 3.10:
+    conda create -n mi_entorno python=3.10
+
+    Confirmar la instalación cuando se pregunte si deseas proceder.
+
+    Activar el entorno:
+    conda activate mi_entorno
+
+    Instalar paquetes de forma manual si es necesario:
+    conda install nombre_del_paquete
+
+    Si el proyecto incluye un archivo environment.yml, instalar dependencias con:
+    conda env update -f environment.yml
+
+    Para exportar el entorno a un archivo .yml:
+    conda env export > environment.yml
+
+    Para desactivar el entorno:
+    conda deactivate
+
+    Para eliminar completamente el entorno:
+    conda remove -n mi_entorno --all

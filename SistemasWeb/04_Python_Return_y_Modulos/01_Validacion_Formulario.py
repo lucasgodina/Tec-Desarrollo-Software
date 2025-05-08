@@ -26,7 +26,7 @@ def validar_formulario(nombre, correo, telefono):
         return False
 
     # Validar teléfono
-    if not telefono.isdigit() or len(telefono) != 9:
+    if not telefono.isdigit() or len(telefono) != 10:
         return False
 
     # Validar correo electrónico
@@ -34,3 +34,15 @@ def validar_formulario(nombre, correo, telefono):
         return False
 
     return True
+
+
+# Ejemplo de uso
+if __name__ == "__main__":
+    nombre = input("Ingrese su nombre: ")
+    correo = input("Ingrese su correo electrónico: ")
+    telefono = input("Ingrese su número de teléfono: ")
+
+    if validar_formulario(nombre, correo, telefono):
+        print("Formulario válido.")
+    else:
+        print("Formulario inválido.")
