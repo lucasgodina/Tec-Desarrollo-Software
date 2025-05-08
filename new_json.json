@@ -1,0 +1,220 @@
+{
+  "metadata": {
+    "version": "2.0.0",
+    "lastUpdated": "2025-04-23",
+    "description": "CRUI - PP3"
+  },
+  "students": [
+    {
+      "id": "STU001",
+      "personalInfo": {
+        "firstName": "Lucas",
+        "lastName": "Godina",
+        "email": "lucasgodina@gmail.com",
+        "location": "Buenos Aires, Argentina"        
+      },
+      "academicInfo": {
+        "currentYear": 3,
+        "specialization": "Desarrollo de Software",
+        "enrollmentDate": "2021-03-01",
+        "expectedGraduation": "2024-12-15"
+      },
+      "skills": {
+        "programmingLanguages": ["JavaScript", "Python", "Java"],
+        "frameworks": ["Node.js", "Laravel"],
+        "databases": ["SQLite", "MySQL"],
+        "tools": ["Git", "VS Code"],
+        "soft": ["Proactivo", ""]
+      },
+      "languages": [
+        {
+          "language": "Español",
+          "level": "Nativo"
+        },
+        {
+          "language": "Inglés",
+          "level": "Avanzado",
+          "certification": "EFSET 88"
+        }
+      ]
+    },
+    {
+      "id": "STU002",
+      "personalInfo": {
+        "firstName": "Rocio",
+        "lastName": "Lujan",
+        "email": "rociolujanceleste26@gmail.com",
+        "location": "Buenos Aires, Argentina"        
+      },
+      "academicInfo": {
+        "currentYear": 3,
+        "specialization": "Desarrollo de Software",
+        "enrollmentDate": "2021-03-01",
+        "expectedGraduation": "2024-12-15"
+      },
+      "skills": {
+        "programmingLanguages": ["JavaScript", "Python", "Java"],
+        "frameworks": ["Node.js", "Laravel", "Flask"],
+        "databases": ["SQLite", "MySQL"],
+        "tools": ["Git", "VS Code", "Pycharm"],
+        "soft": ["Proactivo", "Buena comunicación", "Trabajo en equipo", "Liderazgo"]
+      },
+      "languages": [
+        {
+          "language": "Español",
+          "level": "Nativo"
+        },
+        {
+          "language": "Inglés",
+          "level": "B2"
+        }
+      ]
+    },
+    {
+      "id": "STU003",
+      "personalInfo": {
+        "firstName": "Ricardo",
+        "lastName": "Ortiz",
+        "email": "ricjard890@gmail.com",
+        "location": "Buenos Aires, Argentina"        
+      },
+      "academicInfo": {
+        "currentYear": 3,
+        "specialization": "Desarrollo de Software",
+        "enrollmentDate": "2021-03-01",
+        "expectedGraduation": "2024-12-15"
+      },
+      "skills": {
+        "programmingLanguages": ["JavaScript", "Python", "PHP"],
+        "frameworks": ["Node.js", "Laravel"],
+        "databases": ["SQLite", "MySQL"],
+        "tools": ["Git", "VS Code"],
+        "soft": ["Trabajo en equipo", "Adaptativo", "Resolución de problemas"]
+      },
+      "languages": [
+        {
+          "language": "Español",
+          "level": "Nativo"
+        },
+        {
+          "language": "Inglés",
+          "level": "Intermedio"
+        }
+      ]
+    },
+    {
+      "id": "STU004",
+      "personalInfo": {
+        "firstName": "Francisco",
+        "lastName": "Castellano",
+        "email": "francastellano1510@gmail.com",
+        "location": "Buenos Aires, Argentina"        
+      },
+      "academicInfo": {
+        "currentYear": 3,
+        "specialization": "Desarrollo de Software",
+        "enrollmentDate": "2021-03-01",
+        "expectedGraduation": "2024-12-15"
+      },
+      "skills": {
+        "programmingLanguages": ["JavaScript", "Php"],
+        "frameworks": ["Laravel"],
+        "databases": ["MySQL"],
+        "tools": ["Git", "GitHub", "Docker", "Miro"],
+        "soft": ["Resolutivo", "Trabajo en equipo", "Adaptativo"]
+      },
+      "languages": [
+        {
+          "language": "Español",
+          "level": "Nativo"
+        },
+        {
+          "language": "Inglés",
+          "level": "Intermedio"
+        }
+      ]
+    },
+    {
+      "id": "STU005",
+      "personalInfo": {
+        "firstName": "Sebastian",
+        "lastName": "Mussi",
+        "email": "mussisebas@gmail.com",
+        "location": "Buenos Aires, Argentina"        
+      },
+      "academicInfo": {
+        "currentYear": 3,
+        "specialization": "Desarrollo de Software",
+        "enrollmentDate": "2021-03-01",
+        "expectedGraduation": "2024-12-15"
+      },
+      "skills": {
+        "programmingLanguages": ["JavaScript", "Python", "C#", "Php"],
+        "frameworks": ["Laravel", "Node.js", "Entity"],
+        "databases": ["MySQL", "SQL Server"],
+        "tools": ["Git", "Trello"],
+        "soft": ["Resolutivo", "Trabajo en equipo", "Adaptativo"]
+      },
+      "languages": [
+        {
+          "language": "Español",
+          "level": "Nativo"
+        },
+        {
+          "language": "Inglés",
+          "level": "Intermedio"
+        }
+      ]
+    }    
+  ],
+  "teams": [
+    {
+      "id": "TEAM001",
+      "name": "Equipo 1",
+      "members": ["STU001", "STU002", "STU002", "STU004", "STU005"],
+      "project": {
+        "name": "Pucara Gaming",
+        "description": "Landing page y página de tienda online para un equipo de eSports argentino",
+        "technologies": [],
+        "status": "En desarrollo",
+        "startDate": "2024-04-15",
+        "expectedEndDate": "2024-10-01",
+        "progress": 5,
+        "offerer": ["Pucara Gaming"],
+        "stakeHolders": []
+      }
+    }
+    
+  ],
+  "projects": [
+    {
+      "id": "PRO001",
+      "team_id": "TEAM001",
+      "name": "Sistema de Gestión Académica",
+      "description": "Desarrollo de una aplicación web para gestión de calificaciones",
+      "technologies": ["React", "Node.js", "MongoDB"],
+      "status": "En desarrollo",
+      "startDate": "2024-01-15",
+      "expectedEndDate": "2024-07-15",
+      "duration": "12 meses",
+      "progress": 45,
+      "offerer": ["La empresa"],
+      "stakeHolders": ["persona1", "persona2", "persona3", "todas las personas involucradas"],
+
+      "history": [
+        {
+          "date": "2023-01-01",
+          "description": "Inicio del proyecto",
+          "status": "Iniciado",
+          "time_spent": "100 horas"
+        },
+        {
+          "date": "2023-02-01",
+          "description": "Desarrollo de la interfaz de usuario",
+          "status": "En progreso",
+          "time_spent": "50 horas"
+        }
+      ]
+    }
+  ]
+}
